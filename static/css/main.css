@@ -1,0 +1,32 @@
+.list-group-item.disabled, .list-group-item:disabled {
+    /* color: #6c757d; */
+    pointer-events: all;
+    /* background-color: #fff; */
+}
+
+.btn-info {
+    background-color: coral;
+}
+
+body {
+    background-color: orange;
+    background-image: linear-gradient(to right, orange, red);
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 10px;
+}
+
+.head {
+    font-weight: bold;
+    border: 1px solid #f18e8e;
+    background: black;
+    
+}
+
+.cell {
+    border: 1px solid #c2ba3c;
+    background: #f8ffde;
+}
