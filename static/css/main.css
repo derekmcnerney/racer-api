@@ -13,10 +13,8 @@ body {
     background-image: linear-gradient(to right, orange, red);
 }
 
-#grid {
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    grid-gap: 10px;
+#racers {
+    width: 100%;
 }
 
 .head {
